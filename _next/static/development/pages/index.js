@@ -38585,8 +38585,9 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         appImageSrc: '/images/projects/ic_zing.png',
         role: 'Role: Team Lead, iOS and Backend Developer',
         vendor: 'Developed at White Cloak Technologies, Inc.',
-        description: 'Z!ng is Ayala Malls’ mobile app that includes indoor navigation, cinema booking, offers, promos, and rewards.',
-        involvement: 'Involvement: X',
+        description: 'Zing is Ayala Malls’ mobile app and website that is meant to maximize the malling experience of its customers. With Zing, users can get free WiFi in all Ayala Malls, book movie tickets instantly, earn Zing points and redeem them as vouchers, find and navigate to shops and restaurants, and get updates on exclusive sales and promos.',
+        involvementDescription: 'Involvement: from start to production and maintenance',
+        involvementDate: 'Date: Jan 2019 - Present',
         features: ['Loyalty and Rewards', 'Indoor Map', 'Cinema Booking', 'Mall Information'],
         platforms: [{
           name: 'iOS',
@@ -38609,9 +38610,10 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         appImageSrc: '/images/projects/ic_ubonline.png',
         role: 'Role: Lead iOS Developer',
         vendor: 'Developed at White Cloak Technologies, Inc.',
-        description: 'I worked on the core features of the app including the Dashboard, Fund Transfer, Bills Payment, Buy Load, and a lot more.',
-        involvement: 'Involvement: ',
-        features: ['Fund Transfer', 'Bills Payment', 'Buy Load', 'Quick Balance'],
+        description: 'UnionBank Online allows banking securely whenever and wherever its customers need it. With the app, users can easily manage accounts, cards, transfer funds, pay bills, buy load, split bills, request for payment, and a lot more.\n\nAwards:\n- 2018 Best Retail Mobile Banking Experience by The Asset Magazine\n- 2018 Online Banking Initiative of the Year by Asian Banking and Finance\n- 2018 Best Technology Implementation - Front End by Retail Banker International (Highly Commended).',
+        involvementDescription: 'Involvement: from start to production and maintenance',
+        involvementDate: 'Date: Apr 2017 – Dec 2018',
+        features: ['Fund Transfer', 'Bills Payment', 'Buy Load', 'Request Payment'],
         platforms: [{
           name: 'iOS',
           logoSrc: '/images/ic_ios.svg'
@@ -38632,9 +38634,10 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         title: 'TakeFive Outdoors',
         appImageSrc: '/images/projects/ic_takefive.png',
         role: 'Role: Team Lead, iOS and Backend Developer',
-        vendor: 'Freelance',
-        description: 'TakeFive Outdoors organize monthly trips to mountains, beach, and anything outdoors. Book for trips using the app.',
-        involvement: 'Involvement: ',
+        vendor: 'Freelance Client: Takefive Outdoors',
+        description: 'TakeFive Outdoors transformed into a digital enterprise by providing access to easy online booking of trips to its customers. With the app, users can browse the avaialable schedule of trips and easily know how many seats are still available. TakeFive helps local communities benefit from tourism by giving authentic experience to its clients. They organize monthly trips to different mountains, falls, beach, cave and anything about outdoors.',
+        involvementDescription: 'Involvement: from start to production and maintenance',
+        involvementDate: 'Date: Oct 2018 – Present',
         features: ['Trips', 'Online Booking', 'Profile Levels', 'Vouchers'],
         platforms: [{
           name: 'iOS',
@@ -38657,9 +38660,10 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         appImageSrc: '/images/projects/ic_figaro.png',
         role: 'Role: iOS Developer',
         vendor: 'Developed at Coreproc, Inc.',
-        description: 'The Figaro Coffee App has a built-in rewards system that provides a give-gifts function to loyal and regular customers.',
-        involvement: 'Involvement: ',
-        features: ['', '', '', ''],
+        description: 'Figaro prides itself in serving coffee made from freshly-roasted beans sourced from all over the Philippines. The Figaro Coffee App has a built-in rewards system that provides a give-gifts function to loyal and regular customers.',
+        involvementDescription: 'Involvement: from start to production',
+        involvementDate: 'Date: while still at Coreproc, Inc.',
+        features: ['Loyalty and Rewards', 'Online Ordering', 'Store Locations'],
         platforms: [{
           name: 'iOS',
           logoSrc: '/images/ic_ios.svg'
@@ -38681,9 +38685,10 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         appImageSrc: '/images/projects/ic_bridal_gallery.png',
         role: 'Role: iOS Developer',
         vendor: 'Developed at Coreproc, Inc.',
-        description: 'With its easy interface, Bridal Gallery is the most innovative wedding planning app in the Philippines today.',
-        involvement: 'Involvement: ',
-        features: ['', '', '', ''],
+        description: 'With its easy interface, Bridal Gallery is the most innovative wedding planning app in the Philippines today. Reliable wedding planning services in Philippines is just so easy to find. Users can create an idea gallery by finding great planning tips, global themes, and the finest professionals.',
+        involvementDescription: 'Involvement: from start to production and maintenace',
+        involvementDate: 'Date: while still at Coreproc, Inc.',
+        features: ['Wedding Tips', 'Wedding Planning', 'Wedding Professionals'],
         platforms: [{
           name: 'iOS',
           logoSrc: '/images/ic_ios.svg'
@@ -38705,9 +38710,10 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         appImageSrc: '/images/projects/ic_mypocketdoctor.png',
         role: 'Role: iOS and Android Developer',
         vendor: 'Developed at Coreproc, Inc.',
-        description: 'MyPocketDoctor is a medical advisory app, that provides you with fast access to doctors (telemedicine).',
-        involvement: 'Involvement: ',
-        features: ['', '', '', ''],
+        description: 'MyPocketDoctor is a medical advisory app, that provides fast access to doctors (telemedicine). The doctors are all fully licensed European doctors. There are many cases where fast medical advise is needed: when traveling, unable to communicate with staff in foreign clinics, not sure if there is a need to go to the emergency ward or go to see a doctor. Avoid the waiting time and travel involved.',
+        involvementDescription: 'Involvement: from start to production and maintenace',
+        involvementDate: 'Date: while still at Coreproc, Inc.',
+        features: ['Medical Profile', 'Online Consultation', 'Online Payment'],
         platforms: [{
           name: 'iOS',
           logoSrc: '/images/ic_ios.svg'
@@ -38729,9 +38735,10 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         appImageSrc: '/images/projects/ic_posible.png',
         role: 'Role: Android Developer',
         vendor: 'Developed at Coreproc, Inc.',
-        description: 'Using an Android device, the retailers of POS!BLE can transact Bills Payment, Prepaid Load, and a lot more.',
-        involvement: 'Involvement: ',
-        features: ['', '', '', ''],
+        description: 'POS!BLE is a network that connects established brands and service providers. Using an Android device, the retailers of POS!BLE can transact Bills Payment (through Bayad Center), Prepaid Load, Online Pins, Inventory Management, and a lot more.',
+        involvementDescription: 'Involvement: maintenace',
+        involvementDate: 'Date: while still at Coreproc, Inc.',
+        features: ['Bills Payment', 'Prepaid Load', 'Online Pins'],
         platforms: [{
           name: 'iOS',
           logoSrc: '/images/ic_ios.svg'
@@ -38752,10 +38759,11 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         title: 'Old Spice Sales App',
         appImageSrc: '/images/projects/ic_oldspice.png',
         role: 'Role: Android Developer',
-        vendor: 'Freelance',
-        description: 'This app is used to advertise Old Spice products. It allows the agent to browse the products and play videos of Old Spice.',
-        involvement: 'Involvement: ',
-        features: ['', '', '', ''],
+        vendor: 'Freelance Client: MASA Inc.',
+        description: 'This app runs on a tablet and is used to advertise Old Spice products. The app allows the agent to browse the products and play commercial videos of Old Spice.',
+        involvementDescription: 'Involvement: design to finish',
+        involvementDate: 'Date: 2015',
+        features: ['Products Gallery', 'Commercial Videos'],
         platforms: [{
           name: 'Android',
           logoSrc: '/images/ic_android.svg'
@@ -38764,10 +38772,11 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         title: 'Oral-B Electric Toothbrush Sales App',
         appImageSrc: '/images/projects/ic_oralb.png',
         role: 'Role: Android Developer',
-        vendor: 'Freelance',
-        description: 'This app is used to advertise the electric toothbrush of Oral-B. The app is a manual vs electric brushing game.',
-        involvement: 'Involvement: ',
-        features: ['', '', '', ''],
+        vendor: 'Freelance Client: MASA Inc.',
+        description: 'This app runs on a tablet and is used to advertise the electric toothbrush of Oral-B. The app is a brushing game comparing the manual and electric toothbrush.',
+        involvementDescription: 'Involvement: design to finish',
+        involvementDate: 'Date: 2015',
+        features: ['Products Gallery', 'Brushing Game'],
         platforms: [{
           name: 'Android',
           logoSrc: '/images/ic_android.svg'
@@ -38808,42 +38817,42 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 225,
+        lineNumber: 234,
         columnNumber: 7
       }
     }, __jsx(Wrapper, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 226,
+        lineNumber: 235,
         columnNumber: 9
       }
     }, __jsx(HeaderContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 227,
+        lineNumber: 236,
         columnNumber: 11
       }
     }, __jsx(ProjectCountLabel, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 228,
+        lineNumber: 237,
         columnNumber: 13
       }
     }, this.state.selectedIndex + 1, " of ", this.state.projects.length, " projects"), __jsx(NavigationContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 229,
+        lineNumber: 238,
         columnNumber: 13
       }
     }, __jsx(NavIconWrapper, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 230,
+        lineNumber: 239,
         columnNumber: 15
       }
     }, __jsx(_ui_library_nav_icon_button_NavIconButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -38853,14 +38862,14 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 230,
+        lineNumber: 239,
         columnNumber: 31
       }
     })), __jsx(NavIconWrapper, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 231,
+        lineNumber: 240,
         columnNumber: 15
       }
     }, __jsx(_ui_library_nav_icon_button_NavIconButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -38870,7 +38879,7 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 231,
+        lineNumber: 240,
         columnNumber: 31
       }
     })))), __jsx(_ui_library_project_Project__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -38879,13 +38888,14 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       role: project.role,
       vendor: project.vendor,
       description: project.description,
-      involvement: project.involvement,
+      involvementDescription: project.involvementDescription,
+      involvementDate: project.involvementDate,
       features: project.features,
       platforms: project.platforms,
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 234,
+        lineNumber: 243,
         columnNumber: 11
       }
     })));
@@ -39549,11 +39559,15 @@ const DevelopedLabel = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"]
 const ProjectDescription = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p.withConfig({
   displayName: "Project__ProjectDescription",
   componentId: "sc-1sw0h1o-13"
-})(["margin-top:1.3rem;color:#4E5F69;font-size:1.2em;@media ", "{font-size:1em;}@media ", "{font-size:0.8em;}"], _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_3__["device"].lowerThanLaptop, _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_3__["device"].lowerThanMobileM);
+})(["margin-top:1.3rem;color:#4E5F69;font-size:1.2em;white-space:pre-wrap;@media ", "{font-size:1em;}@media ", "{font-size:0.8em;}"], _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_3__["device"].lowerThanLaptop, _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_3__["device"].lowerThanMobileM);
 const InvolvementDescription = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p.withConfig({
   displayName: "Project__InvolvementDescription",
   componentId: "sc-1sw0h1o-14"
 })(["margin-top:2rem;color:#A7ADB1;font-size:1.2em;@media ", "{font-size:1em;}@media ", "{font-size:0.8em;}"], _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_3__["device"].lowerThanLaptop, _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_3__["device"].lowerThanMobileM);
+const InvolvementDate = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p.withConfig({
+  displayName: "Project__InvolvementDate",
+  componentId: "sc-1sw0h1o-15"
+})(["margin-top:0.4rem;color:#A7ADB1;font-size:1.2em;@media ", "{font-size:1em;}@media ", "{font-size:0.8em;}"], _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_3__["device"].lowerThanLaptop, _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_3__["device"].lowerThanMobileM);
 class Project extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     const {
@@ -39562,7 +39576,8 @@ class Project extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       role,
       vendor,
       description,
-      involvement,
+      involvementDescription,
+      involvementDate,
       features,
       platforms
     } = this.props;
@@ -39570,35 +39585,35 @@ class Project extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 173,
+        lineNumber: 189,
         columnNumber: 7
       }
     }, __jsx(ProjectTitle, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 174,
+        lineNumber: 190,
         columnNumber: 9
       }
     }, title), __jsx(DetailsContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 175,
+        lineNumber: 191,
         columnNumber: 9
       }
     }, __jsx(InfoContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 176,
+        lineNumber: 192,
         columnNumber: 11
       }
     }, __jsx(AppRoleContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 177,
+        lineNumber: 193,
         columnNumber: 13
       }
     }, __jsx(AppImage, {
@@ -39606,35 +39621,35 @@ class Project extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 178,
+        lineNumber: 194,
         columnNumber: 15
       }
     }), __jsx(RoleContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 179,
+        lineNumber: 195,
         columnNumber: 15
       }
     }, __jsx(RoleLabel, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 180,
+        lineNumber: 196,
         columnNumber: 17
       }
     }, role), __jsx(DevelopedLabel, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 181,
+        lineNumber: 197,
         columnNumber: 17
       }
     }, vendor))), __jsx(PlatformList, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 184,
+        lineNumber: 200,
         columnNumber: 13
       }
     }, platforms.map(platform => {
@@ -39642,7 +39657,7 @@ class Project extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 186,
+          lineNumber: 202,
           columnNumber: 24
         }
       }, __jsx(_project_platform_ProjectPlatform__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -39651,7 +39666,7 @@ class Project extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 186,
+          lineNumber: 202,
           columnNumber: 38
         }
       }));
@@ -39659,21 +39674,28 @@ class Project extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 189,
+        lineNumber: 205,
         columnNumber: 13
       }
     }, description), __jsx(InvolvementDescription, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 190,
+        lineNumber: 206,
         columnNumber: 13
       }
-    }, involvement)), __jsx(FeatureList, {
+    }, involvementDescription), __jsx(InvolvementDate, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 192,
+        lineNumber: 207,
+        columnNumber: 13
+      }
+    }, involvementDate)), __jsx(FeatureList, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 209,
         columnNumber: 11
       }
     }, features.map(feature => {
@@ -39681,7 +39703,7 @@ class Project extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 194,
+          lineNumber: 211,
           columnNumber: 22
         }
       }, __jsx(_project_feature_ProjectFeature__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -39689,7 +39711,7 @@ class Project extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 194,
+          lineNumber: 211,
           columnNumber: 35
         }
       }));
@@ -39703,7 +39725,8 @@ Project.propTypes = {
   role: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   vendor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   description: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  involvement: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+  involvementDescription: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+  involvementDate: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   features: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string).isRequired,
   platforms: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.exact({
     name: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
