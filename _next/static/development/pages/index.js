@@ -39303,7 +39303,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const StyledLink = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].a.withConfig({
   displayName: "LinkButton__StyledLink",
   componentId: "sc-1oqrjb6-0"
-})(["border-radius:3px;border:1.5px solid #23A155;padding:0.5rem 1rem;font-size:1.2rem;background-color:#23A155;color:#FFFFFF;box-sizing:border-box;"]);
+})(["border-radius:3px;border:1.5px solid #23A155;padding:0.5rem 1rem;font-size:1.2rem;background-color:#23A155;color:#FFFFFF;"]);
 class LinkButton extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     const children = this.props.children;
@@ -39313,7 +39313,7 @@ class LinkButton extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20,
+        lineNumber: 18,
         columnNumber: 7
       }
     }, children);
@@ -39938,6 +39938,69 @@ ProjectPlatform.propTypes = {
 
 /***/ }),
 
+/***/ "./src/components/ui_library/scroll_top_button/ScrollTopButton.jsx":
+/*!*************************************************************************!*\
+  !*** ./src/components/ui_library/scroll_top_button/ScrollTopButton.jsx ***!
+  \*************************************************************************/
+/*! exports provided: ScrollTopButton, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ScrollTopButton", function() { return ScrollTopButton; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/ui_library/scroll_top_button/ScrollTopButton.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const Container = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "ScrollTopButton__Container",
+  componentId: "sc-1ewq6sq-0"
+})(["width:3.2rem;height:3.2rem;border-radius:3px;background-color:#23A155;display:flex;justify-content:center;align-items:center;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);"]);
+const StyledLink = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withConfig({
+  displayName: "ScrollTopButton__StyledLink",
+  componentId: "sc-1ewq6sq-1"
+})([""]);
+const UpImage = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
+  displayName: "ScrollTopButton__UpImage",
+  componentId: "sc-1ewq6sq-2"
+})([""]);
+class ScrollTopButton extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return __jsx(Container, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 7
+      }
+    }, __jsx(StyledLink, {
+      onClick: this.props.onClick,
+      href: this.props.href,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 9
+      }
+    }, __jsx(UpImage, {
+      src: "/images/ic_up.svg",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 11
+      }
+    })));
+  }
+
+}
+/* harmony default export */ __webpack_exports__["default"] = (ScrollTopButton);
+
+/***/ }),
+
 /***/ "./src/components/ui_library/skill/Skill.jsx":
 /*!***************************************************!*\
   !*** ./src/components/ui_library/skill/Skill.jsx ***!
@@ -40308,8 +40371,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_sections_about_AboutSection__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/sections/about/AboutSection */ "./src/components/sections/about/AboutSection.jsx");
 /* harmony import */ var _components_sections_contact_ContactSection__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/sections/contact/ContactSection */ "./src/components/sections/contact/ContactSection.jsx");
 /* harmony import */ var _components_sections_footer_FooterSection__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/sections/footer/FooterSection */ "./src/components/sections/footer/FooterSection.jsx");
+/* harmony import */ var _components_ui_library_scroll_top_button_ScrollTopButton__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/ui_library/scroll_top_button/ScrollTopButton */ "./src/components/ui_library/scroll_top_button/ScrollTopButton.jsx");
 var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/pages/index.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -40344,7 +40409,46 @@ const ParticleContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["defaul
   displayName: "pages__ParticleContainer",
   componentId: "l606ox-4"
 })(["height:100vh;width:100%;position:absolute;top:0;left:0;z-index:1;"]);
+const ScrollTopButtonContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
+  displayName: "pages__ScrollTopButtonContainer",
+  componentId: "l606ox-5"
+})(["position:fixed;bottom:2rem;right:5%;display:", ";"], props => {
+  return props.showSrollToTop ? "flex" : "none";
+});
 class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showSrollToTop: false
+    };
+  }
+
+  componentDidMount() {
+    window.onscroll = function () {
+      if (window.pageYOffset === 0) {
+        this.setState({
+          showSrollToTop: false
+        });
+      }
+    }.bind(this);
+
+    react_scroll__WEBPACK_IMPORTED_MODULE_3__["Events"].scrollEvent.register('end', function (to, element) {
+      if (to === "home" || to === null) {
+        return;
+      }
+
+      this.setState({
+        showSrollToTop: true
+      });
+    }.bind(this));
+    react_scroll__WEBPACK_IMPORTED_MODULE_3__["scrollSpy"].update();
+  }
+
+  componentWillUnmount() {
+    window.onscroll = null;
+    react_scroll__WEBPACK_IMPORTED_MODULE_3__["Events"].scrollEvent.remove('end');
+  }
+
   scrollTo(elementName) {
     react_scroll__WEBPACK_IMPORTED_MODULE_3__["scroller"].scrollTo(elementName, {
       duration: 800,
@@ -40358,21 +40462,21 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 84,
+        lineNumber: 126,
         columnNumber: 7
       }
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 85,
+        lineNumber: 127,
         columnNumber: 9
       }
     }, __jsx("title", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 86,
+        lineNumber: 128,
         columnNumber: 11
       }
     }, "Eris | Web and Mobile Developer"), __jsx("meta", {
@@ -40381,7 +40485,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 87,
+        lineNumber: 129,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -40391,7 +40495,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 88,
+        lineNumber: 130,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -40402,7 +40506,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 89,
+        lineNumber: 131,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -40413,7 +40517,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 90,
+        lineNumber: 132,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -40422,7 +40526,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 91,
+        lineNumber: 133,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -40432,7 +40536,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 92,
+        lineNumber: 134,
         columnNumber: 11
       }
     }), __jsx("meta", {
@@ -40441,7 +40545,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 93,
+        lineNumber: 135,
         columnNumber: 11
       }
     }), __jsx("meta", {
@@ -40450,14 +40554,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 94,
+        lineNumber: 136,
         columnNumber: 11
       }
     })), __jsx(MainContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 96,
+        lineNumber: 138,
         columnNumber: 9
       }
     }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Element"], {
@@ -40465,7 +40569,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 98,
+        lineNumber: 140,
         columnNumber: 11
       }
     }), __jsx(HeaderHomeContainer, {
@@ -40473,14 +40577,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 99,
+        lineNumber: 141,
         columnNumber: 11
       }
     }, __jsx(HeaderContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 100,
+        lineNumber: 142,
         columnNumber: 13
       }
     }, __jsx(_components_sections_header_HeaderSection__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -40493,14 +40597,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 101,
+        lineNumber: 143,
         columnNumber: 15
       }
     })), __jsx(ParticleContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 110,
+        lineNumber: 152,
         columnNumber: 13
       }
     }, __jsx(_components_ui_library_particles_CustomizedParticles__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -40509,14 +40613,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 110,
+        lineNumber: 152,
         columnNumber: 32
       }
     })), __jsx(HomeContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 111,
+        lineNumber: 153,
         columnNumber: 13
       }
     }, __jsx(_components_sections_home_HomeSection__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -40528,7 +40632,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 112,
+        lineNumber: 154,
         columnNumber: 15
       }
     }))), __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Element"], {
@@ -40536,14 +40640,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 122,
+        lineNumber: 164,
         columnNumber: 11
       }
     }), __jsx(_components_sections_projects_ProjectsSection__WEBPACK_IMPORTED_MODULE_8__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 123,
+        lineNumber: 165,
         columnNumber: 11
       }
     }), __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Element"], {
@@ -40551,21 +40655,21 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 125,
+        lineNumber: 167,
         columnNumber: 11
       }
     }), __jsx(_components_sections_skills_SkillsSection__WEBPACK_IMPORTED_MODULE_9__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 126,
+        lineNumber: 168,
         columnNumber: 11
       }
     }), __jsx(_components_sections_quotation_QuotationSection__WEBPACK_IMPORTED_MODULE_10__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 128,
+        lineNumber: 170,
         columnNumber: 11
       }
     }), __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Element"], {
@@ -40573,14 +40677,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 130,
+        lineNumber: 172,
         columnNumber: 11
       }
     }), __jsx(_components_sections_about_AboutSection__WEBPACK_IMPORTED_MODULE_11__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 131,
+        lineNumber: 173,
         columnNumber: 11
       }
     }), __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Element"], {
@@ -40588,14 +40692,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 133,
+        lineNumber: 175,
         columnNumber: 11
       }
     }), __jsx(_components_sections_contact_ContactSection__WEBPACK_IMPORTED_MODULE_12__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 134,
+        lineNumber: 176,
         columnNumber: 11
       }
     }), __jsx(_components_sections_footer_FooterSection__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -40607,10 +40711,27 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 136,
+        lineNumber: 178,
         columnNumber: 11
       }
-    })));
+    }), __jsx(ScrollTopButtonContainer, {
+      showSrollToTop: this.state.showSrollToTop,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 185,
+        columnNumber: 11
+      }
+    }, __jsx(_components_ui_library_scroll_top_button_ScrollTopButton__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      onClick: this.scrollTo.bind(this, 'home'),
+      href: "#home",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 186,
+        columnNumber: 13
+      }
+    }))));
   }
 
 }
@@ -40618,7 +40739,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*****************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjohneris%2FDocuments%2Fworkspace%2Freactjs%2Fjohnerisvillanueva-reactjs%2Fsrc%2Fpages%2Findex.jsx ***!
   \*****************************************************************************************************************************************************************************/
@@ -40641,5 +40762,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
