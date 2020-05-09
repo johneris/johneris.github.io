@@ -37430,7 +37430,6 @@ class AboutSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     let monthLabelSubstring = months > 1 ? 'ONTHS' : 'ONTH';
     let dayLabelSubstring = days > 1 ? 'AYS' : 'AY';
     return __jsx(Container, {
-      id: "about",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -37656,7 +37655,6 @@ class ContactSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
   render() {
     return __jsx(Container, {
-      id: "contact",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -37755,7 +37753,6 @@ const WebsiteLink = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.
 class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     return __jsx(Container, {
-      id: "footer",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -38126,7 +38123,6 @@ class HeaderSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       }
     }, __jsx(NavListItemLink, {
       onClick: this.onNavClicked.bind(this, 'home'),
-      href: "#home",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -38142,7 +38138,6 @@ class HeaderSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       }
     }, __jsx(NavListItemLink, {
       onClick: this.onNavClicked.bind(this, 'projects'),
-      href: "#projects",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -38158,7 +38153,6 @@ class HeaderSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       }
     }, __jsx(NavListItemLink, {
       onClick: this.onNavClicked.bind(this, 'skills'),
-      href: "#skills",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -38174,7 +38168,6 @@ class HeaderSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       }
     }, __jsx(NavListItemLink, {
       onClick: this.onNavClicked.bind(this, 'about'),
-      href: "#about",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -38190,7 +38183,6 @@ class HeaderSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       }
     }, __jsx(NavListItemLink, {
       onClick: this.onNavClicked.bind(this, 'contact'),
-      href: "#contact",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -38395,7 +38387,6 @@ class HomeSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       name: "Android",
       logoSrc: "/images/ic_android.svg",
       onClick: onAndroidClicked,
-      href: "#skills-android",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -38406,7 +38397,6 @@ class HomeSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       name: "iOS",
       logoSrc: "/images/ic_ios.svg",
       onClick: oniOSClicked,
-      href: "#skills-ios",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -38417,7 +38407,6 @@ class HomeSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       name: "Web",
       logoSrc: "/images/ic_web.svg",
       onClick: onWebClicked,
-      href: "#skills-web",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -38428,7 +38417,6 @@ class HomeSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       name: "Backend",
       logoSrc: "/images/ic_backend.svg",
       onClick: onBackendClicked,
-      href: "#skills-backend",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -38444,7 +38432,6 @@ class HomeSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     }, __jsx(_ui_library_link_button_LinkButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
       onClick: onContactMeClicked,
-      href: "#contact",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -38838,7 +38825,6 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
   render() {
     let project = this.state.projects[this.state.selectedIndex];
     return __jsx(Container, {
-      id: "projects",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -38969,7 +38955,6 @@ const Author = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p.withC
 class QuotationSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     return __jsx(Container, {
-      id: "quote",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -39088,7 +39073,6 @@ const TitleLabel = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2.
 class SkillsSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     return __jsx(Container, {
-      id: "skills",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -39118,7 +39102,6 @@ class SkillsSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Element"], {
       name: "skills_android",
-      id: "skills-android",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -39139,7 +39122,6 @@ class SkillsSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     })), __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Element"], {
       name: "skills_ios",
-      id: "skills-ios",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -39160,7 +39142,6 @@ class SkillsSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     })), __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Element"], {
       name: "skills_web",
-      id: "skills-web",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -39181,7 +39162,6 @@ class SkillsSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     })), __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Element"], {
       name: "skills_backend",
-      id: "skills-backend",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -40573,7 +40553,6 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 11
       }
     }), __jsx(HeaderHomeContainer, {
-      id: "home",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -40724,7 +40703,6 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     }, __jsx(_components_ui_library_scroll_top_button_ScrollTopButton__WEBPACK_IMPORTED_MODULE_14__["default"], {
       onClick: this.scrollTo.bind(this, 'home'),
-      href: "#home",
       __self: this,
       __source: {
         fileName: _jsxFileName,
