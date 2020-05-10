@@ -17,19 +17,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../helpers/MediaQueryHelper */ "./src/helpers/MediaQueryHelper.jsx");
-/* harmony import */ var _components_ui_library_particles_CustomizedParticles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/ui_library/particles/CustomizedParticles */ "./src/components/ui_library/particles/CustomizedParticles.jsx");
-/* harmony import */ var _components_sections_header_HeaderSection__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/sections/header/HeaderSection */ "./src/components/sections/header/HeaderSection.jsx");
-/* harmony import */ var _components_sections_home_HomeSection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/sections/home/HomeSection */ "./src/components/sections/home/HomeSection.jsx");
-/* harmony import */ var _components_sections_projects_ProjectsSection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/sections/projects/ProjectsSection */ "./src/components/sections/projects/ProjectsSection.jsx");
-/* harmony import */ var _components_sections_skills_SkillsSection__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/sections/skills/SkillsSection */ "./src/components/sections/skills/SkillsSection.jsx");
-/* harmony import */ var _components_sections_quotation_QuotationSection__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/sections/quotation/QuotationSection */ "./src/components/sections/quotation/QuotationSection.jsx");
-/* harmony import */ var _components_sections_about_AboutSection__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/sections/about/AboutSection */ "./src/components/sections/about/AboutSection.jsx");
-/* harmony import */ var _components_sections_contact_ContactSection__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/sections/contact/ContactSection */ "./src/components/sections/contact/ContactSection.jsx");
-/* harmony import */ var _components_sections_footer_FooterSection__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/sections/footer/FooterSection */ "./src/components/sections/footer/FooterSection.jsx");
-/* harmony import */ var _components_ui_library_scroll_top_button_ScrollTopButton__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/ui_library/scroll_top_button/ScrollTopButton */ "./src/components/ui_library/scroll_top_button/ScrollTopButton.jsx");
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
+/* harmony import */ var _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../helpers/MediaQueryHelper */ "./src/helpers/MediaQueryHelper.jsx");
+/* harmony import */ var _components_ui_library_particles_CustomizedParticles__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/ui_library/particles/CustomizedParticles */ "./src/components/ui_library/particles/CustomizedParticles.jsx");
+/* harmony import */ var _components_sections_header_HeaderSection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/sections/header/HeaderSection */ "./src/components/sections/header/HeaderSection.jsx");
+/* harmony import */ var _components_sections_home_HomeSection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/sections/home/HomeSection */ "./src/components/sections/home/HomeSection.jsx");
+/* harmony import */ var _components_sections_projects_ProjectsSection__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/sections/projects/ProjectsSection */ "./src/components/sections/projects/ProjectsSection.jsx");
+/* harmony import */ var _components_sections_skills_SkillsSection__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/sections/skills/SkillsSection */ "./src/components/sections/skills/SkillsSection.jsx");
+/* harmony import */ var _components_sections_quotation_QuotationSection__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/sections/quotation/QuotationSection */ "./src/components/sections/quotation/QuotationSection.jsx");
+/* harmony import */ var _components_sections_about_AboutSection__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/sections/about/AboutSection */ "./src/components/sections/about/AboutSection.jsx");
+/* harmony import */ var _components_sections_contact_ContactSection__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/sections/contact/ContactSection */ "./src/components/sections/contact/ContactSection.jsx");
+/* harmony import */ var _components_sections_footer_FooterSection__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/sections/footer/FooterSection */ "./src/components/sections/footer/FooterSection.jsx");
+/* harmony import */ var _components_ui_library_scroll_top_button_ScrollTopButton__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/ui_library/scroll_top_button/ScrollTopButton */ "./src/components/ui_library/scroll_top_button/ScrollTopButton.jsx");
 var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/pages/index.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -52,15 +54,15 @@ const MainContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].
 const HeaderHomeContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].section.withConfig({
   displayName: "pages__HeaderHomeContainer",
   componentId: "l606ox-1"
-})(["height:100vh;width:100%;background-color:#1B262C;min-height:768px;@media ", "{height:calc(100vh + 35rem);min-height:calc(768px + 35rem);display:flex;flex-direction:column;}"], _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_4__["device"].lowerThanLaptop);
+})(["height:100vh;width:100%;background-color:#1B262C;min-height:768px;@media ", "{height:calc(100vh + 35rem);min-height:calc(768px + 35rem);display:flex;flex-direction:column;}"], _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_5__["device"].lowerThanLaptop);
 const HeaderContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "pages__HeaderContainer",
   componentId: "l606ox-2"
-})(["position:relative;z-index:3;@media ", "{position:static;}"], _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_4__["device"].lowerThanLaptop);
+})(["position:relative;z-index:3;@media ", "{position:static;}"], _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_5__["device"].lowerThanLaptop);
 const HomeContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "pages__HomeContainer",
   componentId: "l606ox-3"
-})(["height:100vh;width:100%;position:absolute;top:0;left:0;z-index:2;@media ", "{position:static;}"], _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_4__["device"].lowerThanLaptop);
+})(["height:100vh;width:100%;position:absolute;top:0;left:0;z-index:2;@media ", "{position:static;}"], _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_5__["device"].lowerThanLaptop);
 const ParticleContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "pages__ParticleContainer",
   componentId: "l606ox-4"
@@ -80,6 +82,8 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
   componentDidMount() {
+    if (false) {}
+
     window.onscroll = function () {
       if (window.pageYOffset === 0) {
         this.setState({
@@ -118,21 +122,21 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 126,
+        lineNumber: 131,
         columnNumber: 7
       }
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 127,
+        lineNumber: 132,
         columnNumber: 9
       }
     }, __jsx("title", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 128,
+        lineNumber: 133,
         columnNumber: 11
       }
     }, "Eris | Web and Mobile Developer"), __jsx("meta", {
@@ -141,7 +145,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 129,
+        lineNumber: 134,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -151,7 +155,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 130,
+        lineNumber: 135,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -162,7 +166,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 131,
+        lineNumber: 136,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -173,7 +177,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 132,
+        lineNumber: 137,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -182,7 +186,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 133,
+        lineNumber: 138,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -192,7 +196,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 134,
+        lineNumber: 139,
         columnNumber: 11
       }
     }), __jsx("meta", {
@@ -201,7 +205,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 135,
+        lineNumber: 140,
         columnNumber: 11
       }
     }), __jsx("meta", {
@@ -210,14 +214,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 136,
+        lineNumber: 141,
         columnNumber: 11
       }
     })), __jsx(MainContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 138,
+        lineNumber: 143,
         columnNumber: 9
       }
     }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Element"], {
@@ -225,24 +229,24 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 140,
+        lineNumber: 145,
         columnNumber: 11
       }
     }), __jsx(HeaderHomeContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 141,
+        lineNumber: 146,
         columnNumber: 11
       }
     }, __jsx(HeaderContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 142,
+        lineNumber: 147,
         columnNumber: 13
       }
-    }, __jsx(_components_sections_header_HeaderSection__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    }, __jsx(_components_sections_header_HeaderSection__WEBPACK_IMPORTED_MODULE_7__["default"], {
       height: "4em",
       onHomeClicked: this.scrollTo.bind(this, 'home'),
       onProjectsClicked: this.scrollTo.bind(this, 'projects'),
@@ -252,33 +256,33 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 143,
+        lineNumber: 148,
         columnNumber: 15
       }
     })), __jsx(ParticleContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 152,
+        lineNumber: 157,
         columnNumber: 13
       }
-    }, __jsx(_components_ui_library_particles_CustomizedParticles__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    }, __jsx(_components_ui_library_particles_CustomizedParticles__WEBPACK_IMPORTED_MODULE_6__["default"], {
       width: "100%",
       height: "100vh",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 152,
+        lineNumber: 157,
         columnNumber: 32
       }
     })), __jsx(HomeContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 153,
+        lineNumber: 158,
         columnNumber: 13
       }
-    }, __jsx(_components_sections_home_HomeSection__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    }, __jsx(_components_sections_home_HomeSection__WEBPACK_IMPORTED_MODULE_8__["default"], {
       onAndroidClicked: this.scrollTo.bind(this, 'skills_android'),
       oniOSClicked: this.scrollTo.bind(this, 'skills_ios'),
       onWebClicked: this.scrollTo.bind(this, 'skills_web'),
@@ -287,7 +291,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 154,
+        lineNumber: 159,
         columnNumber: 15
       }
     }))), __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Element"], {
@@ -295,32 +299,10 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 164,
+        lineNumber: 169,
         columnNumber: 11
       }
-    }), __jsx(_components_sections_projects_ProjectsSection__WEBPACK_IMPORTED_MODULE_8__["default"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 165,
-        columnNumber: 11
-      }
-    }), __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Element"], {
-      name: "skills",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 167,
-        columnNumber: 11
-      }
-    }), __jsx(_components_sections_skills_SkillsSection__WEBPACK_IMPORTED_MODULE_9__["default"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 168,
-        columnNumber: 11
-      }
-    }), __jsx(_components_sections_quotation_QuotationSection__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    }), __jsx(_components_sections_projects_ProjectsSection__WEBPACK_IMPORTED_MODULE_9__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -328,18 +310,40 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 11
       }
     }), __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Element"], {
-      name: "about",
+      name: "skills",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 172,
         columnNumber: 11
       }
-    }), __jsx(_components_sections_about_AboutSection__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    }), __jsx(_components_sections_skills_SkillsSection__WEBPACK_IMPORTED_MODULE_10__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 173,
+        columnNumber: 11
+      }
+    }), __jsx(_components_sections_quotation_QuotationSection__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 175,
+        columnNumber: 11
+      }
+    }), __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Element"], {
+      name: "about",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 177,
+        columnNumber: 11
+      }
+    }), __jsx(_components_sections_about_AboutSection__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 178,
         columnNumber: 11
       }
     }), __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_3__["Element"], {
@@ -347,17 +351,17 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 175,
+        lineNumber: 180,
         columnNumber: 11
       }
-    }), __jsx(_components_sections_contact_ContactSection__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    }), __jsx(_components_sections_contact_ContactSection__WEBPACK_IMPORTED_MODULE_13__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 176,
+        lineNumber: 181,
         columnNumber: 11
       }
-    }), __jsx(_components_sections_footer_FooterSection__WEBPACK_IMPORTED_MODULE_13__["default"], {
+    }), __jsx(_components_sections_footer_FooterSection__WEBPACK_IMPORTED_MODULE_14__["default"], {
       onHomeClicked: this.scrollTo.bind(this, 'home'),
       onProjectsClicked: this.scrollTo.bind(this, 'projects'),
       onSkillsClicked: this.scrollTo.bind(this, 'skills'),
@@ -366,7 +370,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 178,
+        lineNumber: 183,
         columnNumber: 11
       }
     }), __jsx(ScrollTopButtonContainer, {
@@ -374,15 +378,15 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 185,
+        lineNumber: 190,
         columnNumber: 11
       }
-    }, __jsx(_components_ui_library_scroll_top_button_ScrollTopButton__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    }, __jsx(_components_ui_library_scroll_top_button_ScrollTopButton__WEBPACK_IMPORTED_MODULE_15__["default"], {
       onClick: this.scrollTo.bind(this, 'home'),
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 186,
+        lineNumber: 191,
         columnNumber: 13
       }
     }))));
@@ -394,4 +398,4 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.6e57e2f9e42c65853462.hot-update.js.map
+//# sourceMappingURL=index.js.b2b76355c96b4cdc61dc.hot-update.js.map
