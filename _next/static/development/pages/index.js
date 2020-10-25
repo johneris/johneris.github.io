@@ -25483,10 +25483,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjohneris%2FDocuments%2Fworkspace%2Freactjs%2Fjohnerisvillanueva-reactjs%2Fsrc%2Fpages%2Findex.jsx!./":
-/*!*************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjohneris%2FDocuments%2Fworkspace%2Freactjs%2Fjohnerisvillanueva-reactjs%2Fsrc%2Fpages%2Findex.jsx ***!
-  \*************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjohneris%2FDocuments%2Fworkspace%2Freactjs%2Fjohnerisvillanueva.com-reactjs%2Fsrc%2Fpages%2Findex.jsx!./":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjohneris%2FDocuments%2Fworkspace%2Freactjs%2Fjohnerisvillanueva.com-reactjs%2Fsrc%2Fpages%2Findex.jsx ***!
+  \*****************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -38432,7 +38432,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var moment_moment_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(moment_moment_js__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../helpers/MediaQueryHelper */ "./src/helpers/MediaQueryHelper.jsx");
 /* harmony import */ var _ui_library_hobby_Hobby__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../ui_library/hobby/Hobby */ "./src/components/ui_library/hobby/Hobby.jsx");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/sections/about/AboutSection.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/sections/about/AboutSection.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -38686,7 +38686,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../helpers/MediaQueryHelper */ "./src/helpers/MediaQueryHelper.jsx");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/sections/contact/ContactSection.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/sections/contact/ContactSection.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -38771,7 +38771,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../helpers/MediaQueryHelper */ "./src/helpers/MediaQueryHelper.jsx");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/sections/footer/FooterSection.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/sections/footer/FooterSection.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -39016,7 +39016,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../helpers/MediaQueryHelper */ "./src/helpers/MediaQueryHelper.jsx");
 
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/sections/header/HeaderSection.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/sections/header/HeaderSection.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -39326,7 +39326,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ui_library_skill_preview_SkillPreview__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../ui_library/skill_preview/SkillPreview */ "./src/components/ui_library/skill_preview/SkillPreview.jsx");
 /* harmony import */ var _ui_library_social_media_link_SocialMediaLink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../ui_library/social_media_link/SocialMediaLink */ "./src/components/ui_library/social_media_link/SocialMediaLink.jsx");
 /* harmony import */ var _ui_library_link_button_LinkButton__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../ui_library/link_button/LinkButton */ "./src/components/ui_library/link_button/LinkButton.jsx");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/sections/home/HomeSection.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/sections/home/HomeSection.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -39621,7 +39621,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ui_library_project_Project__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../ui_library/project/Project */ "./src/components/ui_library/project/Project.jsx");
 /* harmony import */ var _ui_library_nav_icon_button_NavIconButton__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../ui_library/nav_icon_button/NavIconButton */ "./src/components/ui_library/nav_icon_button/NavIconButton.jsx");
 
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/sections/projects/ProjectsSection.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/sections/projects/ProjectsSection.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -39997,7 +39997,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../helpers/MediaQueryHelper */ "./src/helpers/MediaQueryHelper.jsx");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/sections/quotation/QuotationSection.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/sections/quotation/QuotationSection.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -40113,7 +40113,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../helpers/MediaQueryHelper */ "./src/helpers/MediaQueryHelper.jsx");
 /* harmony import */ var _ui_library_skill_Skill__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../ui_library/skill/Skill */ "./src/components/ui_library/skill/Skill.jsx");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/sections/skills/SkillsSection.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/sections/skills/SkillsSection.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -40269,7 +40269,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/ui_library/hobby/Hobby.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/ui_library/hobby/Hobby.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -40341,7 +40341,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/ui_library/link_button/LinkButton.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/ui_library/link_button/LinkButton.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -40388,7 +40388,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/ui_library/nav_icon_button/NavIconButton.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/ui_library/nav_icon_button/NavIconButton.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -40453,7 +40453,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_particles_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-particles-js */ "./node_modules/react-particles-js/index.js");
 /* harmony import */ var react_particles_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_particles_js__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/ui_library/particles/CustomizedParticles.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/ui_library/particles/CustomizedParticles.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -40609,7 +40609,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../helpers/MediaQueryHelper */ "./src/helpers/MediaQueryHelper.jsx");
 /* harmony import */ var _project_feature_ProjectFeature__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../project_feature/ProjectFeature */ "./src/components/ui_library/project_feature/ProjectFeature.jsx");
 /* harmony import */ var _project_platform_ProjectPlatform__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../project_platform/ProjectPlatform */ "./src/components/ui_library/project_platform/ProjectPlatform.jsx");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/ui_library/project/Project.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/ui_library/project/Project.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -40868,7 +40868,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../helpers/MediaQueryHelper */ "./src/helpers/MediaQueryHelper.jsx");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/ui_library/project_feature/ProjectFeature.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/ui_library/project_feature/ProjectFeature.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -40927,7 +40927,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/ui_library/project_platform/ProjectPlatform.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/ui_library/project_platform/ProjectPlatform.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -40997,7 +40997,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/ui_library/scroll_top_button/ScrollTopButton.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/ui_library/scroll_top_button/ScrollTopButton.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -41063,7 +41063,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _helpers_MediaQueryHelper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../helpers/MediaQueryHelper */ "./src/helpers/MediaQueryHelper.jsx");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/ui_library/skill/Skill.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/ui_library/skill/Skill.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -41222,7 +41222,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/ui_library/skill_preview/SkillPreview.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/ui_library/skill_preview/SkillPreview.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -41298,7 +41298,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/components/ui_library/social_media_link/SocialMediaLink.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/components/ui_library/social_media_link/SocialMediaLink.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -41421,7 +41421,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_sections_contact_ContactSection__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/sections/contact/ContactSection */ "./src/components/sections/contact/ContactSection.jsx");
 /* harmony import */ var _components_sections_footer_FooterSection__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/sections/footer/FooterSection */ "./src/components/sections/footer/FooterSection.jsx");
 /* harmony import */ var _components_ui_library_scroll_top_button_ScrollTopButton__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/ui_library/scroll_top_button/ScrollTopButton */ "./src/components/ui_library/scroll_top_button/ScrollTopButton.jsx");
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/pages/index.jsx";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/pages/index.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -41803,14 +41803,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 /***/ }),
 
-/***/ 2:
-/*!*****************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjohneris%2FDocuments%2Fworkspace%2Freactjs%2Fjohnerisvillanueva-reactjs%2Fsrc%2Fpages%2Findex.jsx ***!
-  \*****************************************************************************************************************************************************************************/
+/***/ 1:
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjohneris%2FDocuments%2Fworkspace%2Freactjs%2Fjohnerisvillanueva.com-reactjs%2Fsrc%2Fpages%2Findex.jsx ***!
+  \*********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjohneris%2FDocuments%2Fworkspace%2Freactjs%2Fjohnerisvillanueva-reactjs%2Fsrc%2Fpages%2Findex.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjohneris%2FDocuments%2Fworkspace%2Freactjs%2Fjohnerisvillanueva-reactjs%2Fsrc%2Fpages%2Findex.jsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjohneris%2FDocuments%2Fworkspace%2Freactjs%2Fjohnerisvillanueva.com-reactjs%2Fsrc%2Fpages%2Findex.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fjohneris%2FDocuments%2Fworkspace%2Freactjs%2Fjohnerisvillanueva.com-reactjs%2Fsrc%2Fpages%2Findex.jsx!./");
 
 
 /***/ }),
@@ -41826,5 +41826,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

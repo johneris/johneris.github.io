@@ -2451,7 +2451,7 @@ module.exports = _typeof;
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "* {\n  border: 0px;\n  margin: 0px;\n  box-sizing: border-box;\n}\n\nbody {\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n}\n\nh1, h2, h3, h4, h5, h6 {\n  font-weight: normal;\n}\n\na {\n  text-decoration: none;\n  cursor: pointer;\n}\n\nul {\n  list-style: none;\n  padding-inline-start: 0;\n}\n\nbutton {\n  background-color: transparent;\n  cursor: pointer;\n}\n\nbutton:focus {\n  outline: none;\n}", "",{"version":3,"sources":["/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/styles/styles.css"],"names":[],"mappings":"AAAA;EACE,WAAW;EACX,WAAW;EACX,sBAAsB;AACxB;;AAEA;EACE,gDAAgD;AAClD;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,qBAAqB;EACrB,eAAe;AACjB;;AAEA;EACE,gBAAgB;EAChB,uBAAuB;AACzB;;AAEA;EACE,6BAA6B;EAC7B,eAAe;AACjB;;AAEA;EACE,aAAa;AACf","file":"styles.css","sourcesContent":["* {\n  border: 0px;\n  margin: 0px;\n  box-sizing: border-box;\n}\n\nbody {\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n}\n\nh1, h2, h3, h4, h5, h6 {\n  font-weight: normal;\n}\n\na {\n  text-decoration: none;\n  cursor: pointer;\n}\n\nul {\n  list-style: none;\n  padding-inline-start: 0;\n}\n\nbutton {\n  background-color: transparent;\n  cursor: pointer;\n}\n\nbutton:focus {\n  outline: none;\n}"]}]);
+exports.push([module.i, "* {\n  border: 0px;\n  margin: 0px;\n  box-sizing: border-box;\n}\n\nbody {\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n}\n\nh1, h2, h3, h4, h5, h6 {\n  font-weight: normal;\n}\n\na {\n  text-decoration: none;\n  cursor: pointer;\n}\n\nul {\n  list-style: none;\n  padding-inline-start: 0;\n}\n\nbutton {\n  background-color: transparent;\n  cursor: pointer;\n}\n\nbutton:focus {\n  outline: none;\n}", "",{"version":3,"sources":["/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/styles/styles.css"],"names":[],"mappings":"AAAA;EACE,WAAW;EACX,WAAW;EACX,sBAAsB;AACxB;;AAEA;EACE,gDAAgD;AAClD;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,qBAAqB;EACrB,eAAe;AACjB;;AAEA;EACE,gBAAgB;EAChB,uBAAuB;AACzB;;AAEA;EACE,6BAA6B;EAC7B,eAAe;AACjB;;AAEA;EACE,aAAa;AACf","file":"styles.css","sourcesContent":["* {\n  border: 0px;\n  margin: 0px;\n  box-sizing: border-box;\n}\n\nbody {\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n}\n\nh1, h2, h3, h4, h5, h6 {\n  font-weight: normal;\n}\n\na {\n  text-decoration: none;\n  cursor: pointer;\n}\n\nul {\n  list-style: none;\n  padding-inline-start: 0;\n}\n\nbutton {\n  background-color: transparent;\n  cursor: pointer;\n}\n\nbutton:focus {\n  outline: none;\n}"]}]);
 
 
 /***/ }),
@@ -5766,7 +5766,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/styles.css */ "./src/styles/styles.css");
 /* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_css__WEBPACK_IMPORTED_MODULE_4__);
 
-var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/src/pages/_app.js";
+var _jsxFileName = "/Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/src/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -5874,7 +5874,7 @@ if (true) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
-module.exports = __webpack_require__(/*! /Users/johneris/Documents/workspace/reactjs/johnerisvillanueva-reactjs/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! /Users/johneris/Documents/workspace/reactjs/johnerisvillanueva.com-reactjs/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),
