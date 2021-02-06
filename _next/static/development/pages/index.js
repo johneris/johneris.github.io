@@ -39664,7 +39664,7 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         vendor: 'Developed at White Cloak Technologies, Inc.',
         description: 'Zing is Ayala Malls’ mobile app and website that is meant to maximize the malling experience of its customers. With Zing, users can get free WiFi in all Ayala Malls, book movie tickets instantly, earn Zing points and redeem them as vouchers, find and navigate to shops and restaurants, and get updates on exclusive sales and promos.',
         involvementDescription: 'Involvement: from start to production and maintenance',
-        involvementDate: 'Date: Jan 2019 - Present',
+        involvementDate: 'Date: Jan 2019 - May 2020',
         features: ['Loyalty and Rewards', 'Indoor Map', 'Cinema Booking', 'Mall Information'],
         platforms: [{
           name: 'iOS',
@@ -39700,6 +39700,28 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         }, {
           name: 'Web',
           logoSrc: '/images/ic_web.svg'
+        }, {
+          name: 'Web Admin Portal',
+          logoSrc: '/images/ic_web.svg'
+        }, {
+          name: 'Backend',
+          logoSrc: '/images/ic_backend.svg'
+        }]
+      }, {
+        title: 'Luxe Lips',
+        appImageSrc: '/images/projects/ic_luxelips.png',
+        role: 'Role: Team Lead, Flutter (iOS, Android) and Backend Developer',
+        vendor: 'Freelance Client: Luxe Lips',
+        description: 'Luxe Lips is a medical app for non-invasive aesthetic professionals. It also lets clients access consultations, face maps, and aesthetic tools and bookings via their mobile phones. Luxe Lips is also a patient management software designed for private cosmetic clinics.',
+        involvementDescription: 'Involvement: from start to production and maintenance',
+        involvementDate: 'Date: Aug 2020 – Present',
+        features: ['Cosmetic Clinic', 'Prescriptions', 'Consulations', 'Face Map'],
+        platforms: [{
+          name: 'iOS',
+          logoSrc: '/images/ic_ios.svg'
+        }, {
+          name: 'Android',
+          logoSrc: '/images/ic_android.svg'
         }, {
           name: 'Web Admin Portal',
           logoSrc: '/images/ic_web.svg'
@@ -39894,42 +39916,42 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 234,
+        lineNumber: 250,
         columnNumber: 7
       }
     }, __jsx(Wrapper, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 235,
+        lineNumber: 251,
         columnNumber: 9
       }
     }, __jsx(HeaderContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 236,
+        lineNumber: 252,
         columnNumber: 11
       }
     }, __jsx(ProjectCountLabel, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 237,
+        lineNumber: 253,
         columnNumber: 13
       }
     }, this.state.selectedIndex + 1, " of ", this.state.projects.length, " projects"), __jsx(NavigationContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 238,
+        lineNumber: 254,
         columnNumber: 13
       }
     }, __jsx(NavIconWrapper, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 239,
+        lineNumber: 255,
         columnNumber: 15
       }
     }, __jsx(_ui_library_nav_icon_button_NavIconButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -39939,14 +39961,14 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 239,
+        lineNumber: 255,
         columnNumber: 31
       }
     })), __jsx(NavIconWrapper, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 240,
+        lineNumber: 256,
         columnNumber: 15
       }
     }, __jsx(_ui_library_nav_icon_button_NavIconButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -39956,7 +39978,7 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 240,
+        lineNumber: 256,
         columnNumber: 31
       }
     })))), __jsx(_ui_library_project_Project__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -39972,7 +39994,7 @@ class ProjectsSection extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 243,
+        lineNumber: 259,
         columnNumber: 11
       }
     })));
@@ -40159,7 +40181,7 @@ class SkillsSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 58,
         columnNumber: 11
       }
-    }, "Tech Stack"), __jsx(SkillsContainer, {
+    }, "Technical Skills"), __jsx(SkillsContainer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -40178,8 +40200,8 @@ class SkillsSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       name: "Android",
       logoSrc: "/images/ic_android.svg",
       level: "Intermediate",
-      title: "Native Kotlin/Java",
-      details: ["IDE: Android Studio", "Tools/Libraries: Dagger, Retrofit, RxJava, Gson", "Architecture - MVP, MVVM, Clean Architecture", "Others: Play Store Deployment, Firebase"],
+      title: "Native Kotlin/Java, Flutter",
+      details: ["IDE: Android Studio", "Tools/Libraries: Dagger, Retrofit, RxJava, Gson, bloc, get_it", "Architecture - MVP, MVVM, Clean Architecture", "Others: Play Store Deployment, Firebase"],
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -40198,8 +40220,8 @@ class SkillsSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       name: "iOS",
       logoSrc: "/images/ic_ios.svg",
       level: "Advanced",
-      title: "Native Objective-C/Swift",
-      details: ["IDE: XCode", "Tools/Libraries: Cocoapods, Carthage, XCodeGen, IGListKit, RxSwift, Fastlane", "Architecture - MVP, MVVM, uFeatures, Coordinator", "Others: App Store Deployment, Firebase, Buddybuild, TestFlight"],
+      title: "Native Objective-C/Swift, Flutter",
+      details: ["IDE: XCode", "Tools/Libraries: Cocoapods, Carthage, XCodeGen, IGListKit, RxSwift, Fastlane, bloc, get_it", "Architecture - MVP, MVVM, uFeatures, Coordinator", "Others: App Store Deployment, Firebase, Buddybuild, TestFlight"],
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -40219,7 +40241,7 @@ class SkillsSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       logoSrc: "/images/ic_web.svg",
       level: "Beginner",
       title: "React.js, Next.js, Wordpress",
-      details: ["Code Editor: Visual Studio Code", "Tools/Libraries: Yarn, npm, Storybook, Moment.js, particles.js", "Others: Static Site Deployment to GitHub Pages, Digital Ocean Deployment"],
+      details: ["Code Editor: Visual Studio Code", "Tools/Libraries: Yarn, npm, Storybook, Moment.js, particles.js", "Others: Static Site Deployment to GitHub Pages, Digital Ocean Deployment, AWS EC2 Deployment"],
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -40238,8 +40260,8 @@ class SkillsSection extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       name: "Backend",
       logoSrc: "/images/ic_backend.svg",
       level: "Intermediate",
-      title: "Spring Boot Kotlin/Java, Laravel",
-      details: ["IDE/Code Editor: IntelliJ IDEA, Visual Studio Code", "Tools/Libraries: Gson, Feign, Laravel Nova, Laravel Socialite, Laravel Passport", "Architecture - MVC, Clean Architecture, Microservices", "Others: LEMP stack Deployment in Digital Ocean, Postman, Swagger"],
+      title: "Spring Boot Kotlin/Java, Laravel, AdonisJS",
+      details: ["IDE/Code Editor: IntelliJ IDEA, PHP Storm, Visual Studio Code", "Tools/Libraries: Gson, Feign, Laravel Nova, Laravel Socialite, Laravel Passport", "Architecture - MVC, Clean Architecture, Microservices", "Others: LEMP stack Deployment in Digital Ocean, AWS EC2 Deployment, Postman, Swagger"],
       __self: this,
       __source: {
         fileName: _jsxFileName,
